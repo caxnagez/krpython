@@ -40,6 +40,16 @@ class Dragon:
     def __repr__(self): #официальное представление
         return f"Dragon({self.height}, {self.danger}, '{self.color}')"
 
+dr = Dragon(69, 5, "brown")
+dr1 = Dragon(69, 5, "gray")
+print(dr > dr1, dr != dr1, dr <=
+dr1)
+print(dr, dr1, sep="\n")
+print()
+dr -= 23
+dr1 -= 2
+dr2 = dr + dr1
+print(dr, dr1, dr2, sep="\n")
 dr = Dragon(35, 7, "beige")
 dr1 = Dragon(17, 1, "cyan")
 print(dr > dr1, dr != dr1, dr <= dr1) 
